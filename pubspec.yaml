@@ -1,0 +1,65 @@
+name: solis_monitor
+description: 'This is a monitoring app created by Energyus.'
+
+publish_to: 'none'
+
+version: 1.0.1+2
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.7.0
+
+  cupertino_icons: ^1.0.8
+  flutter_native_splash: ^2.4.6
+  firebase_core: ^4.0.0
+  firebase_messaging: ^16.0.0
+  flutter_local_notifications: ^17.2.3
+  permission_handler: ^11.3.1
+  http: ^0.13.6
+  path_provider: ^2.0.11
+  device_info_plus: ^10.1.0
+  package_info_plus: ^4.0.0
+  webview_cookie_manager:
+    git:
+      url: https://github.com/fryette/webview_cookie_manager.git
+      ref: master
+  flutter_dotenv: ^6.0.0
+  firebase_app_installations: ^0.4.0+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - .env
+
+flutter_native_splash:
+  color: '#ffffff'
+  image: assets/logo.png
+  android: true
+  ios: true
+  fullscreen: true
+
+  android_gravity: center
+  ios_content_mode: center
+
+  android_12:
+    image: assets/logo.png
+    icon_background_color: '#ffffff'
+
+flutter_launcher_icons:
+  android: true # 안드로이드 플랫폼에 런처 아이콘 적용 여부
+  ios: true # iOS 플랫폼에 런처 아이콘 적용 여부
+  image_path: 'assets/icon.png' # 런처 아이콘으로 사용할 이미지 경로
+  adaptive_icon_foreground: 'assets/icon.png' # 안드로이드 적응형 아이콘의 전경 이미지 경로
+  min_sdk_android: 21
