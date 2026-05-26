@@ -1,40 +1,21 @@
 {
   "project_info": {
-    "project_number": "422169015173",
-    "project_id": "energyus-monitoring-platform",
-    "storage_bucket": "energyus-monitoring-platform.firebasestorage.app"
+    "project_number": "196319126048",
+    "project_id": "app-hyosun-dev",
+    "storage_bucket": "app-hyosun-dev.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:422169015173:android:4f715de20d892d769dcaec",
+        "mobilesdk_app_id": "1:196319126048:android:59c1ee32d6995ef341d245",
         "android_client_info": {
-          "package_name": "com.energyusvppc.monitor.dev"
+          "package_name": "com.hyosun.dev"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyC2XpRzAWB8gikEA3SMA6UXkDA-bBqyXBY"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:422169015173:android:3439cd02d4e904699dcaec",
-        "android_client_info": {
-          "package_name": "com.solis.monitor.dev"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyC2XpRzAWB8gikEA3SMA6UXkDA-bBqyXBY"
+          "current_key": "AIzaSyBYqypL-xNZyxfNBsLrmXLRdCpvbp537Ac"
         }
       ],
       "services": {

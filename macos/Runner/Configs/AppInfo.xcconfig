@@ -8,7 +8,7 @@
 PRODUCT_NAME = energyus_monitor
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = com.solis.monitor.dev
+PRODUCT_BUNDLE_IDENTIFIER = com.hyosun.dev
 
 // The copyright displayed in application information
 PRODUCT_COPYRIGHT = Copyright © 2025 com.example. All rights reserved.

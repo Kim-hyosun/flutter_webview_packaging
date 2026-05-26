@@ -19,7 +19,7 @@ plugins {
 }
 
 android {
-    namespace = "com.solis.monitor.dev"
+    namespace = "com.hyosun.dev"
     compileSdk = 35
     ndkVersion = "27.0.12077973"
 
@@ -34,7 +34,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.solis.monitor.dev"
+        applicationId = "com.hyosun.dev"
         minSdk = 23
         targetSdk = 35
         versionCode = flutter.versionCode

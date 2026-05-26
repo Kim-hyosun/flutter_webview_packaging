@@ -44,20 +44,20 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyC2XpRzAWB8gikEA3SMA6UXkDA-bBqyXBY',
-    appId: '1:422169015173:android:41e5d7f7865b860e9dcaec',
-    messagingSenderId: '422169015173',
-    projectId: 'energyus-monitoring-platform',
-    storageBucket: 'energyus-monitoring-platform.firebasestorage.app',
+    apiKey: 'AIzaSyBYqypL-xNZyxfNBsLrmXLRdCpvbp537Ac',
+    appId: '1:196319126048:android:59c1ee32d6995ef341d245',
+    messagingSenderId: '196319126048',
+    projectId: 'app-hyosun-dev',
+    storageBucket: 'app-hyosun-dev.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCk_mWjtYmxihBdZfXiU8vMA9M6G4W9RsU',
-    appId: '1:422169015173:ios:3a8ce20790f566299dcaec',
-    messagingSenderId: '422169015173',
-    projectId: 'energyus-monitoring-platform',
-    storageBucket: 'energyus-monitoring-platform.firebasestorage.app',
-    iosBundleId: 'com.solis.monitor.dev',
+    apiKey: 'AIzaSyC5XvrfJlLXVP4bq_SYf4Uh0O2qNRxrLQU',
+    appId: '1:196319126048:ios:ed0c0ea68b0f278941d245',
+    messagingSenderId: '196319126048',
+    projectId: 'app-hyosun-dev',
+    storageBucket: 'app-hyosun-dev.firebasestorage.app',
+    iosBundleId: 'com.hyosun.dev',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
@@ -66,6 +66,6 @@ class DefaultFirebaseOptions {
     messagingSenderId: 'your-sender-id',
     projectId: 'your-project-id',
     storageBucket: 'your-project-id.appspot.com',
-    iosBundleId: 'com.solis.monitor.dev',
+    iosBundleId: 'com.hyosun.dev',
   );
 }
